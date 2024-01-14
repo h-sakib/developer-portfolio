@@ -1,0 +1,278 @@
+/* GLOBAL CSS STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.common-color  {
+    color: #FD6E0A;
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background: #FD6E0A;
+    border: 0;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.common-description {
+    padding: 101px 105px 25px;
+    text-align: center;
+}
+
+.common-description .common-heading{
+    font-size: 35px;
+    color: #181818;
+}
+
+.common-description h2 {
+    padding-bottom: 30px;
+    color: #181818;
+}
+
+.common-description p {
+    color: #757575;
+    line-height: 30px;
+}
+
+/* HEADER SECTION CSS STYLES */
+
+
+.banner {
+    background: url('images/developer.png') no-repeat 2% center,#FFF8F3;
+
+}
+
+.banner .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 191px 40px 181px;;
+}
+
+.banner .nav h1 {
+    font-size: 48px;
+    font-weight: 800; 
+}
+
+.banner .nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.banner .nav ul li {
+    padding: 0 20px;
+}
+
+.nav-center {
+    padding-top: 19px;
+    color: #474747;
+}
+
+.banner .profile .intro {
+    padding-bottom: 71px;
+}
+
+.banner .profile {
+    background: url('images/header_bg.png') no-repeat right bottom;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 181px;
+    align-items: center;
+}
+
+.banner .profile .intro h2 {
+    color: #474747;
+    font-size: 35px;
+}
+
+.banner .profile .intro h1 {
+    color: #181818;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.banner .profile .intro p {
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.banner .profile .intro button {
+    margin-top: 21px;
+}
+
+.banner .profile .intro .different-btn {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: none;
+    color: #FD6E0A;
+    padding: 15px 25px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+.banner .profile img {
+    position: relative;
+    top: 5px;
+    width: 600px;
+    padding-right: 38px;
+}
+
+
+/* MAIN SECTION CSS STYLES */
+
+
+main {
+    margin: 100px 151px;
+}
+
+
+/* MAIN ABOUT SECTION CSS STYLES */
+
+
+.about {
+    background: #FFF8F3;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px 105px 101px;
+}
+
+.about-info .info p {
+    color: #757575;
+}
+
+.about-info .info h4 {
+    color: #474747;
+}
+
+
+/* MAIN WHAT I DO SECTION CSS STYLES */
+
+
+.my-skill {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.skills {
+    padding: 30px 26px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 20px 0;
+}
+
+.skills h3 {
+    color: #181818;
+    margin-top: 25px;
+}
+
+.skills p {
+    color: #757575;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+
+/* MAIN RESUME SECTION CSS STYLES */
+
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-experience {
+    margin-right: 30px;
+}
+
+.education-experience h3 {
+    font-size: 26px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.education-experience .degree {
+    color: #474747;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.education-experience .title {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.education-experience .description {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.horizontal-line {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.my-resume .center-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* FOOTER SECTION CSS STYLES */
+
+footer {
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 151px;
+}
+
+.lets-connect , .lets-message {
+    width: 500px;
+}
+
+.lets-connect h2, .lets-message h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.lets-connect p {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.lets-message input, .lets-message textarea {
+    display: block;
+    width: 77%;
+    margin: 24px 0;
+    padding: 18px 30px;
+    border: 0;
+}
